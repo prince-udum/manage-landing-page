@@ -155,7 +155,8 @@ const Footer = () => {
             Please insert a valid email
           </span>
           <small className="desktop-copyright">
-            Copyright <span>2020</span>. All Rights Reserved
+            Copyright <span>{new Date().getFullYear()}</span>. All Rights
+            Reserved
           </small>
         </div>
       </div>
