@@ -124,7 +124,8 @@ const Footer = () => {
             </ul>
           </div>
           <small className="mobile-copyright">
-            Copyright <span>2020</span>. All Rights Reserved
+            Copyright <span>{new Date().getFullYear()}</span>. All Rights
+            Reserved
           </small>
         </div>
 
